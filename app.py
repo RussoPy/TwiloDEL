@@ -5,9 +5,7 @@ app = FastAPI()
 
 # Allow CORS for all origins, methods, and headers
 origins = [
-    "http://localhost",  # Allows front-end running locally
-    "http://localhost:8000",  # Another possible URL for testing
-    "*",  # Allows any domain (be careful with this in production)
+  " https://russopy.github.io/twilohtml/",
 ]
 
 app.add_middleware(
