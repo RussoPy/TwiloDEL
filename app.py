@@ -6,6 +6,7 @@ app = FastAPI()
 # Allow CORS for all origins, methods, and headers
 origins = [
   " https://russopy.github.io/twilohtml/",
+  "https://statuesque-gaufre-01d230.netlify.app/",
 ]
 
 app.add_middleware(
